@@ -2570,7 +2570,7 @@ ItemDisplay[CL3 NMAG !ETH RES>39 RES<45 !SOCK=1]: %DGREEN%%NAME%%BLUE% 40-44+ %R
 ItemDisplay[CL3 NMAG !ETH RES>34 RES<40 !SOCK=1]: %DGREEN%%NAME%%BLUE% 35-39+ %YELLOW%[%SOCKETS%]
 ItemDisplay[CL3 NMAG !ETH RES=45 SOCK=0]: %DGREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
 ItemDisplay[CL3 NMAG ELT ETH RES=45 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% 45+ %PURPLE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<4 CL3 NMAG ELT ETH RES>39 RES<45 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% 40-44+ %RED%[%SOCKETS%]
+ItemDisplay[CL3 NMAG ELT ETH RES>19 !SOCK=1 !SOCK=2]: %GRAY%ETH %DGREEN%%NAME%%BLUE% 20-44+ %RED%[%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 //				AR shields
 // -------------------------------------------------------------------------------------------------------------
