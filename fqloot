@@ -75,8 +75,8 @@ ItemDisplay[FILTERLVL<4 rvs]: %BORDER(155,8)%%BGCOLOR(143)%%GREEN%!%PURPLE% 30%
 // -------------------------------------------------------------------------------------------------------------
 //						Scrolls								|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<4 tsc]: %GREEN%!%GRAY%TP
-ItemDisplay[FILTERLVL<4 isc]: %GREEN%!%GRAY%ID
+ItemDisplay[FILTERLVL<4 tsc]:// %GREEN%!%GRAY%TP
+ItemDisplay[FILTERLVL<4 isc]:// %GREEN%!%GRAY%ID
 // -------------------------------------------------------------------------------------------------------------
 //						Tomes								|
 // -------------------------------------------------------------------------------------------------------------
@@ -85,11 +85,11 @@ ItemDisplay[ibk]: //%WHITE%Tome of Identify
 // -------------------------------------------------------------------------------------------------------------
 //						Utility pots							|
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[wms CLVL<61]: %GREEN%!%YELLOW%Thaw					// Show Thaw when Character Level under 61
+ItemDisplay[wms CLVL<61]:// %GREEN%!%YELLOW%Thaw					// Show Thaw when Character Level under 61
 ItemDisplay[wms CLVL>0]: 							// Hide Thaw when Character Level over 61
-ItemDisplay[yps CLVL<61]: %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Hide Anidote Character Level under 61
-ItemDisplay[FILTERLVL<4 yps]:  %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Show Antidote all levels (Edit Here to hide)
-ItemDisplay[vps CLVL<30]: %GREEN%!%WHITE%Stam
+ItemDisplay[yps CLVL<61]:// %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Hide Anidote Character Level under 61
+ItemDisplay[FILTERLVL<4 yps]://  %BORDER(118,6)%%BGCOLOR(118)%%GREEN%!%WHITE%A%GREEN%!	// Show Antidote all levels (Edit Here to hide)
+ItemDisplay[vps CLVL<30]:// %GREEN%!%WHITE%Stam
 ItemDisplay[vps CLVL>29]:
 // -------------------------------------------------------------------------------------------------------------
 // Choking(gpm), Exploding(opm), Fulminating(opl), Oil(ops), Rancid(gps), Strangling(gpl), Stamina(vps)		|
