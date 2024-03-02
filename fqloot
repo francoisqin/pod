@@ -45,8 +45,8 @@ ItemDisplay[GOLD<250 (CLVL>19 AND CLVL<=65)]:
 ItemDisplay[GOLD<2500 CLVL>65]:
 //						HP & MPs
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[FILTERLVL<4 hp5]: //%BORDER(10,4)%%GREEN%!%RED%HP
-ItemDisplay[FILTERLVL<4 mp5]: //%BORDER(140,4)%%GREEN%!%BLUE%MP
+ItemDisplay[FILTERLVL<4 hp5]://%BORDER(10,4)%%GREEN%!%RED%HP
+ItemDisplay[FILTERLVL<4 mp5]://%BORDER(140,4)%%GREEN%!%BLUE%MP
 // --------------------------------------------------------------
 ItemDisplay[hp4 CLVL<70]: %BORDER(10,4)%%GREEN%!%RED%Grt HP
 ItemDisplay[hp4]:
