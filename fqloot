@@ -524,8 +524,9 @@ ItemDisplay[(rin OR amu OR jew) UNI !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BOR
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 rin MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[FILTERLVL<3 rin MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[rin MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[rin MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[rin MAG (ILVL>89 AND ILVL<95)]: %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[rin MAG ILVL>94]: %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[rin RARE]: %NAME%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Rings I want to keep
 // -------------------------------------------------------------------------------------------------------------
@@ -2499,19 +2500,8 @@ ItemDisplay[WP13 !ETH (TABSK24>1 AND SK112>1)]: %NAME% %ORANGE%2+ Combat 2+ Bles
 // -------------------------------------------------------------------------------------------------------------
 //					Non Magic Scepters
 // -------------------------------------------------------------------------------------------------------------
-ItemDisplay[WP13 NMAG !ETH SK117>2 SOCK=5]: %NAME% %ORANGE%+3 Holy Shield%PURPLE%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK112>2 (SOCK=0 OR SOCK=4)]: %NAME% %ORANGE%+3 Blessed Hammer%RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK113>2 (SOCK=0 OR SOCK=4)]: %NAME% %ORANGE%+3 Concentration%RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK101>2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+3 Holy Bolt%RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK118>2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+3 Holy Shock%RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK118>2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+3 Sanctuary %RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK114>2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+3 Holy Freeze%RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK102>2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+3 Holy Fire%RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK117=2 SOCK=5]: %NAME% %ORANGE%+2 Holy Shield %RED%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK102=2 ILVL<67]: %NAME% %ORANGE%+2 Holy Fire %WHITE%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK112=2 ILVL<67]: %NAME% %ORANGE%+2 Blessed Hammer%WHITE%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK113=2 ILVL<67]: %NAME% %ORANGE%+2 Concentration%WHITE%[%SOCKETS%]
-ItemDisplay[WP13 NMAG !ETH SK101=2 ILVL<67]: %NAME% %ORANGE%+2 Holy Bolt%WHITE%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK117>2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+3 Holy Shield%PURPLE%[%SOCKETS%]
+ItemDisplay[WP13 NMAG !ETH SK117=2 (SOCK=0 OR SOCK>2)]: %NAME% %ORANGE%+2 Holy Shield %RED%[%SOCKETS%]
 ItemDisplay[WP13 NMAG SOCK=4]: %NAME% %ORANGE%Holy Thunder Base %WHITE%[%SOCKETS%]
 // -------------------------------------------------------------------------------------------------------------
 //					Scepters no skills
@@ -2796,93 +2786,93 @@ ItemDisplay[leg]: %NAME%
 // --------------------------------------
 //		Crafting: Safety Helm	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 crn MAG !ETH]: %WHITE%Safety Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 xrn MAG !ETH]: %DGREEN%Safety Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 urn MAG !ETH]: %ORANGE%Safety Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 crn MAG !ETH]: %WHITE%Safety Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xrn MAG !ETH]: %DGREEN%Safety Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 urn MAG !ETH]: %ORANGE%Safety Helm %CONTINUE%
 ItemDisplay[FILTERLVL<3 (crn OR xrn OR urn) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-5-6-7: %RED%Random%NL%%GREEN%Roll-3: %TAN%Magic Damage Reduced By 1-2%WHITE% | %GREEN%Roll-4: %TAN%Damage Reduced By 1-4%NL%%GREEN%Roll-1: %TAN%+10-30% Enhanced Defense%WHITE% | %GREEN%Roll-2: %TAN%Lightning Resist +5-10%%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Ith %GREEN%Emerald}
 // --------------------------------------
 //		Crafting: Caster Helm	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 msk MAG !ETH]: %WHITE%Caster Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 xsk MAG !ETH]: %DGREEN%Caster Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 usk MAG !ETH]: %ORANGE%Caster Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 msk MAG !ETH]: %WHITE%Caster Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xsk MAG !ETH]: %DGREEN%Caster Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 usk MAG !ETH]: %ORANGE%Caster Helm %CONTINUE%
 ItemDisplay[FILTERLVL<3 (msk OR xsk OR usk) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%+10-20 To Mana           %WHITE% | %GREEN%Roll-4-5-6: %RED%Random                %NL%%GREEN%Roll-1: %TAN%1-4% Mana Stolen Per Hit%WHITE% | %GREEN%Roll-2: %TAN%Regenerate Mana 4-10%%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Nef %RED%Amethyst}
 // --------------------------------------
 //		Crafting: Blood Helm	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 hlm MAG !ETH]: %WHITE%Blood Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 xlm MAG !ETH]: %DGREEN%Blood Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 ulm MAG !ETH]: %ORANGE%Blood Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 hlm MAG !ETH]: %WHITE%Blood Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xlm MAG !ETH]: %DGREEN%Blood Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 ulm MAG !ETH]: %ORANGE%Blood Helm %CONTINUE%
 ItemDisplay[FILTERLVL<3 (hlm OR xlm OR ulm) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%+10-20 To Life%WHITE%        | %GREEN%Roll-4-5-6: %RED%Random                 %NL%%GREEN%Roll-1: %TAN%5-10% Deadly Strike%WHITE% | %GREEN%Roll-2: %TAN%1-3% Life Stolen Per Hit%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Ral %RED%Ruby}
 // --------------------------------------
 //		Crafting: HitPower Helm	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 fhl MAG !ETH]: %WHITE%HitPower Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 xhl MAG !ETH]: %DGREEN%HitPower Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 uhl MAG !ETH]: %ORANGE%HitPower Helm %CONTINUE%
-ItemDisplay[FILTERLVL<3 (fhl OR xhl OR uhl) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%Attacker Takes Damage of 3-7%WHITE% | %GREEN%Roll-4-5-6: %RED%Random%NL%%GREEN%Roll-2: %TAN%5% Chance To Cast Level 4 Frost Nova When Struck%NL%%GREEN%Roll-1: %TAN%25-50 Defense vs. Missiles%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Ith %BLUE%Sapphire}
+//ItemDisplay[FILTERLVL<3 fhl MAG !ETH]: %WHITE%HitPower Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xhl MAG !ETH]: %DGREEN%HitPower Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 uhl MAG !ETH]: %ORANGE%HitPower Helm %CONTINUE%
+//ItemDisplay[FILTERLVL<3 (fhl OR xhl OR uhl) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%Attacker Takes Damage of 3-7%WHITE% | %GREEN%Roll-4-5-6: %RED%Random%NL%%GREEN%Roll-2: %TAN%5% Chance To Cast Level 4 Frost Nova When Struck%NL%%GREEN%Roll-1: %TAN%25-50 Defense vs. Missiles%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Ith %BLUE%Sapphire}
 // --------------------------------------
 //		Crafting: Safety GLOVES	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 hgl MAG !ETH]: %WHITE%Safety Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 xhg MAG !ETH]:%DGREEN%Safety Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 uhg MAG !ETH]: %ORANGE%Safety Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 hgl MAG !ETH]: %WHITE%Safety Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xhg MAG !ETH]:%DGREEN%Safety Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 uhg MAG !ETH]: %ORANGE%Safety Gloves %CONTINUE%
 ItemDisplay[FILTERLVL<3 (hgl OR xhg OR uhg) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-5-6-7: %TAN% Random%NL%%GREEN%Roll-3: %TAN%Cold Resist +5-10%%WHITE%      | %GREEN%Roll-4: %TAN%+10-30% Enhanced Defense   %NL%%GREEN%Roll-1: %TAN%Damage Reduced By 1-4%WHITE% | %GREEN%Roll-2: %TAN%Magic Damage Reduced By 1-2%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%RAL %GREEN%Emerald}
 // --------------------------------------
 //		Crafting: Caster GLOVES	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 lgl MAG !ETH]: %WHITE%Caster Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 xlg MAG !ETH]: %DGREEN%Caster Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 ulg MAG !ETH]: %ORANGE%Caster Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 lgl MAG !ETH]: %WHITE%Caster Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xlg MAG !ETH]: %DGREEN%Caster Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 ulg MAG !ETH]: %ORANGE%Caster Gloves %CONTINUE%
 ItemDisplay[FILTERLVL<3 (lgl OR xlg OR ulg) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%+1-3 Mana Per Kill%WHITE% | %GREEN%Roll-3-4-6: %TAN%Random                 %NL%%GREEN%Roll-1: %TAN%+10-20 To Mana   %WHITE% | %GREEN%Roll-2:  %TAN%Regenerate Mana 4-10%%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%ORT %TAN%Amethyst}
 // --------------------------------------
 //		Crafting: Blood GLOVES	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 vgl MAG !ETH]: %WHITE%Blood Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 xvg MAG !ETH]: %DGREEN%Blood Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 uvg MAG !ETH]: %ORANGE%Blood Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 vgl MAG !ETH]: %WHITE%Blood Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xvg MAG !ETH]: %DGREEN%Blood Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 uvg MAG !ETH]: %ORANGE%Blood Gloves %CONTINUE%
 ItemDisplay[FILTERLVL<3 (vgl OR xvg OR uvg) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%Crushing Blow 5-10%%WHITE% | %GREEN%Roll-4-5-6: %TAN%Random                %NL%%GREEN%Roll-1: %TAN%+10-20 To Life        %WHITE% | %GREEN%Roll-2: %TAN%1-3% Life Stolen Per Hit%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%NEF %RED%Ruby}
 // --------------------------------------
 //		Crafting: HitPwr GLOVES	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 mgl MAG !ETH]: %WHITE%Hitpower Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 xmg MAG !ETH]: %DGREEN%Hitpower Gloves %CONTINUE%
-ItemDisplay[FILTERLVL<3 umg MAG !ETH]: %ORANGE%Hitpower Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 mgl MAG !ETH]: %WHITE%Hitpower Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xmg MAG !ETH]: %DGREEN%Hitpower Gloves %CONTINUE%
+//ItemDisplay[FILTERLVL<3 umg MAG !ETH]: %ORANGE%Hitpower Gloves %CONTINUE%
 ItemDisplay[FILTERLVL<3 (mgl OR xmg OR umg) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-4-5-6: %TAN% * Random * %NL%%GREEN%Roll-3: %TAN%5% Chance To Cast Level 4 Frost Nova When Struck%NL%%GREEN%Roll-1: %TAN%Knockback%WHITE%  |  %GREEN%Roll-2: %TAN%Attacker Takes Damage of 3-7%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%ORT %BLUE%Saphire}
 // --------------------------------------
 //		Crafting: Caster BOOTS	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 ulb MAG !ETH]: %WHITE%Caster Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 xlb MAG !ETH]: %DGREEN%Caster Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 lbt MAG !ETH]: %ORANGE%Caster Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 ulb MAG !ETH]: %WHITE%Caster Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xlb MAG !ETH]: %DGREEN%Caster Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 lbt MAG !ETH]: %ORANGE%Caster Boots %CONTINUE%
 ItemDisplay[FILTERLVL<3 (ulb OR xlb OR lbt) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%Increase Maximum Mana 2-5%%WHITE% | %GREEN%Roll-4-5-6: %TAN%Random                %NL%%GREEN%Roll-1: %TAN%+10-20 To Mana                 %WHITE% | %GREEN%Roll-2: %TAN%Regenerate Mana 4-10%%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Thul %TAN%Amethyst}
 // --------------------------------------
 //		Crafting: Safety BOOTS	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 hbt MAG !ETH]: %WHITE%Safety Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 xhb MAG !ETH]: %DGREEN%Safety Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 uhb MAG !ETH]: %ORANGE%Safety Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 hbt MAG !ETH]: %WHITE%Safety Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xhb MAG !ETH]: %DGREEN%Safety Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 uhb MAG !ETH]: %ORANGE%Safety Boots %CONTINUE%
 ItemDisplay[FILTERLVL<3 (hbt OR xhb OR uhb) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-4-5-6: %TAN%Random%NL%%GREEN%Roll-3: %TAN%Magic Damage Reduced By 1-2%WHITE% | %GREEN%Roll-4-5-6: %TAN%Damage Reduced By 1-4%NL%%GREEN%Roll-1: %TAN%+10-30% Enhanced Defense  %WHITE% | %GREEN%Roll-2: %TAN%Fire Resist +5-10%            %NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Ort %GREEN%Emerald}
 // --------------------------------------
 //		Crafting: Blood BOOTS	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 tbt MAG !ETH]: %WHITE%Blood Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 xtb MAG !ETH]: %DGREEN%Blood Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 utb MAG !ETH]: %ORANGE%Blood Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 tbt MAG !ETH]: %WHITE%Blood Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xtb MAG !ETH]: %DGREEN%Blood Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 utb MAG !ETH]: %ORANGE%Blood Boots %CONTINUE%
 ItemDisplay[FILTERLVL<3 (tbt OR xtb OR utb) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%+10-20 To Life%WHITE% | %GREEN%Roll-4-5-6: %TAN%Random                %NL%%GREEN%Roll-1: %TAN%Replenish Life +5-10%WHITE% | %GREEN%Roll-2: %TAN%1-3% Life Stolen Per Hit%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Eth %RED%Ruby}
 // --------------------------------------
 //		Crafting: HitPwr BOOTS	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 mbt MAG !ETH]: %WHITE%HitPower Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 xmb MAG !ETH]: %DGREEN%HitPower Boots %CONTINUE%
-ItemDisplay[FILTERLVL<3 umb MAG !ETH]: %ORANGE%HitPower Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 mbt MAG !ETH]: %WHITE%HitPower Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 xmb MAG !ETH]: %DGREEN%HitPower Boots %CONTINUE%
+//ItemDisplay[FILTERLVL<3 umb MAG !ETH]: %ORANGE%HitPower Boots %CONTINUE%
 ItemDisplay[FILTERLVL<3 (mbt OR xmb OR umb) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%Attacker Takes Damage of 3-7%WHITE% | %GREEN%Roll-4-5-6: %TAN%Random                %NL%%GREEN%Roll-1: %TAN%25-50 Defense vs. Melee%WHITE% | %GREEN%Roll-2: %TAN%5% Chance To Cast Level 4 Frost Nova When Struck%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Thul %BLUE%Sapphire}
 // --------------------------------------
 //		Crafting: Safety BELT	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 lbl MAG !ETH]: %WHITE%Safety Belt %CONTINUE%
-ItemDisplay[FILTERLVL<3 zlb MAG !ETH]: %DGREEN%Safety Belt %CONTINUE%
-ItemDisplay[FILTERLVL<3 ulc MAG !ETH]: %ORANGE%Safety Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 lbl MAG !ETH]: %WHITE%Safety Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 zlb MAG !ETH]: %DGREEN%Safety Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 ulc MAG !ETH]: %ORANGE%Safety Belt %CONTINUE%
 ItemDisplay[FILTERLVL<3 (lbl OR zlb OR ulc) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-5-6-7: %TAN%Random%NL%%GREEN%  Roll-3: %TAN%Magic Damage Reduced By 1-2%WHITE% | %GREEN%Roll-4: %TAN%Damage Reduced By 1-4%NL%%GREEN%Roll-1: %TAN%+10-30% Enhanced Defense  %WHITE% | %GREEN%Roll-2: %TAN%Poison Resist +5-10%%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%TAL %GREEN%Emerald}
 // --------------------------------------
 //		Crafting: Caster BELT	|
@@ -2894,16 +2884,16 @@ ItemDisplay[FILTERLVL<3 (vbl OR zvb OR uvc) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%N
 // --------------------------------------
 //		Crafting: BLOOD BELT	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 mbl MAG !ETH]: %WHITE%Blood Belt %CONTINUE%
-ItemDisplay[FILTERLVL<3 zmb MAG !ETH]: %DGREEN%Blood Belt %CONTINUE%
-ItemDisplay[FILTERLVL<3 umc MAG !ETH]: %ORANGE%Blood Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 mbl MAG !ETH]: %WHITE%Blood Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 zmb MAG !ETH]: %DGREEN%Blood Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 umc MAG !ETH]: %ORANGE%Blood Belt %CONTINUE%
 ItemDisplay[FILTERLVL<3 (mbl OR zmb OR umc) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%+10-20 To Life      %WHITE% | %GREEN%Roll-4-5-6: %TAN%Random                %NL%%GREEN%Roll-1: %TAN%Open Wounds 5-10%%WHITE% | %GREEN%Roll-2: %TAN%1-3% Life Stolen Per Hit%NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%TAL %RED%Ruby}
 // --------------------------------------
 //		Crafting: HitPwr BELT	|
 // --------------------------------------
-ItemDisplay[FILTERLVL<3 tbl MAG !ETH]: %WHITE%HitPower Belt %CONTINUE%
-ItemDisplay[FILTERLVL<3 ztb MAG !ETH]: %DGREEN%HitPower Belt %CONTINUE%
-ItemDisplay[FILTERLVL<3 utc MAG !ETH]: %ORANGE%HitPower Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 tbl MAG !ETH]: %WHITE%HitPower Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 ztb MAG !ETH]: %DGREEN%HitPower Belt %CONTINUE%
+//ItemDisplay[FILTERLVL<3 utc MAG !ETH]: %ORANGE%HitPower Belt %CONTINUE%
 ItemDisplay[FILTERLVL<3 (tbl OR ztb OR utc) MAG !ETH]: %NAME% %WHITE%[%ILVL%]{%NL%%GREEN%Roll-3: %TAN%Attacker Takes Damage of 3-7%WHITE% | %GREEN%Roll-4-5-6: %TAN%Random%NL%%GREEN%Roll-2: %TAN%5% Chance To Cast Level 4 Frost Nova When Struck%NL%%GREEN%Roll-1: %TAN%5-10% Damage Goes to Mana                               %NL%%GREEN%Craft:%YELLOW% Jewel %GOLD%Tal %BLUE%Sapphire}
 //
 // -------------------------------------------------------------------------------------------------------------
