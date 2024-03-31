@@ -526,7 +526,7 @@ ItemDisplay[FILTERLVL<3 rin MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE
 ItemDisplay[FILTERLVL<3 rin MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[rin MAG (ILVL>89 AND ILVL<95)]: %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[rin MAG ILVL>94]: %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[rin RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%NAME% [%ILVL%] %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[rin RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%%NAME% [%ILVL%] %NOTIFYSOUND(2664,HIGH)%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Rings I want to keep
 // -------------------------------------------------------------------------------------------------------------
