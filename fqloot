@@ -509,8 +509,8 @@ ItemDisplay[amu MAG ID TABSK50>2]: %ORANGE%+3 Martial Arts: Assassin%CONTINUE%
 // --------------------Color Amulet according to LEVEL ------------------------------
 ItemDisplay[FILTERLVL<4 amu MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[FILTERLVL<4 amu MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[amu MAG (ILVL>89 AND ILVL<95)]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)% %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[amu MAG ILVL>94]: %MAPICON(50,0)%%NOTIFY(ITEM,HIGH)%%NOTIFYSOUND(2664,HIGH)% %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[amu MAG (ILVL>89 AND ILVL<95)]: %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
+ItemDisplay[amu MAG ILVL>94]: %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Amulets I want to keep
 // -------------------------------------------------------------------------------------------------------------
