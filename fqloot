@@ -71,7 +71,7 @@ ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 // --------------------------------------------------------------
 ItemDisplay[FILTERLVL<5 rvl]: %BORDER(155,8)%%BGCOLOR(143)%%NL%%GREEN%!%PURPLE% 70% %GREEN%!
-ItemDisplay[FILTERLVL<4 rvs]: %BORDER(155,8)%%BGCOLOR(143)%%GREEN%!%PURPLE% 30% 
+ItemDisplay[FILTERLVL<4 rvs]: //%BORDER(155,8)%%BGCOLOR(143)%%GREEN%!%PURPLE% 30% 
 // -------------------------------------------------------------------------------------------------------------
 //						Scrolls								|
 // -------------------------------------------------------------------------------------------------------------
