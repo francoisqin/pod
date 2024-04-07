@@ -305,7 +305,8 @@ ItemDisplay[sku CLVL>49]:
 // 		Flawless Gems	|
 //	-------------------------
 //
-ItemDisplay[FILTERLVL<4 gzv]:%MAPICON(67,11)%%BGCOLOR(155)%%BORDER(12,3)%%PURPLE%\||||/%NL%/||||\	//Flawless Amethyst
+//ItemDisplay[FILTERLVL<4 gzv]:%MAPICON(67,11)%%BGCOLOR(155)%%BORDER(12,3)%%PURPLE%\||||/%NL%/||||\	//Flawless Amethyst
+ItemDisplay[FILTERLVL<4 gzv]:%MAPICON(67,11)%%BGCOLOR(155)%%BORDER(12,3)%%PURPLE%~~~~%NL%%WHITE% §Amethyst %NL%~~~~	//Flawless Amethyst
 ItemDisplay[FILTERLVL<4 glw]:%MAPICON(67,25)%%BGCOLOR(30)%%BORDER(12,3)%%WHITE%\||||/%NL%/||||\	//Flawless Diamond
 ItemDisplay[FILTERLVL<4 glg]:%MAPICON(67,2)%%BGCOLOR(118)%%BORDER(12,3)%%GREEN%\||||/%NL%/||||\	//Flawless Emerald
 ItemDisplay[FILTERLVL<4 glr]:%MAPICON(66,25)%%BGCOLOR(8)%%BORDER(12,3)%%RED%\||||/%NL%/||||\	//Flawless Ruby
