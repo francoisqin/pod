@@ -30,8 +30,10 @@ FilterLevel[4]: END-GAME
 //			Here is where I am searching for new items requested
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[FILTERLVL<3 7fb NMAG ETH]: %NOTIFY(ITEM,HIGH)% %GRAY%ETH %DGREEN%%NAME%%BLUE%%PURPLE%[%SOCKETS%]
-ItemDisplay[FILTERLVL<3 EQ4 TABSK2>2]: %NOTIFY(ITEM,HIGH)% %NAME%%PURPLE% +3 Javelin & Spear %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[FILTERLVL<3 EQ4 TABSK0>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow $kill$ %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[EQ4 TABSK2>2]: %NOTIFY(ITEM,HIGH)% %NAME%%PURPLE% +3 Javelin & Spear %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[EQ4 TABSK0>2]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow $kill$ %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[EQ4 TABSK0>2 IAS=20]: %NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Bow $kill$ %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[EQ4 TABSK2>2 IAS=20]: %NOTIFY(ITEM,HIGH)% %NAME%%PURPLE% +3 Javelin & Spear %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK44>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Frost Nova %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK47>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Fire Ball %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[FILTERLVL<3 SK70>2]:%NOTIFY(ITEM,HIGH)% %NAME%%ORANGE% +3 Skeletal Warriors %NOTIFYSOUND(2664,HIGH)%
