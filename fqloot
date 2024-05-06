@@ -1488,7 +1488,7 @@ ItemDisplay[7ws UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %GRAY%ETH %RED%Ast
 //
 //					QUIVERS
 // ------------------------------------------------------------------------------------------------ Arrows and Bolts
-ItemDisplay[aq2 UNI !ID]: %TAN%%NAME%
+ItemDisplay[aq2 RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(5)% %RED%%NAME%
 ItemDisplay[cq2 UNI !ID]: %TAN%%NAME%
 //
 //					CL1 DRUID ITEMS
