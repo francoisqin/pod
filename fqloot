@@ -143,6 +143,7 @@ ItemDisplay[ear]: %NOTIFY(ITEM,LOW)% %ORANGE%%NAME%
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[std]: %NOTIFY(ITEM,HIGH)% %NAME%
 ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Alteration   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[cx6]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[cx7]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** KEY OF CHAOS ****
 // -------------------------------------------------------------------------------------------------------------
@@ -530,7 +531,8 @@ ItemDisplay[FILTERLVL<3 rin MAG ILVL<88]: %GRAY%%NAME% %DGREEN%[%ILVL%]%CONTINUE
 ItemDisplay[FILTERLVL<3 rin MAG (ILVL>87 AND ILVL<90)]: %BLUE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[rin MAG (ILVL>89 AND ILVL<95)]: %ORANGE%%NAME% %GREEN%[%ILVL%]%CONTINUE%
 ItemDisplay[rin MAG ILVL>94]: %RED%%NAME% %GREEN%[%ILVL%]%CONTINUE%
-ItemDisplay[rin RARE]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%%NAME% [%ILVL%] %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[(rin OR amu OR jew) RARE !ID]: %NOTIFY(ITEM,HIGH)%%MAPICON(43,1)%%BORDER(10,2)%%NAME% [%ILVL%] %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[(rin OR amu OR jew) RARE]: %NAME%
 // -------------------------------------------------------------------------------------------------------------
 // 			Here is where I print Rings I want to keep
 // -------------------------------------------------------------------------------------------------------------
@@ -1418,7 +1420,7 @@ ItemDisplay[FILTERLVL<3 8cs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%C
 ItemDisplay[FILTERLVL<3 8cs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Chromatic Ire
 // ------------------------------------------------------------------------------------------------ Warpspear
 ItemDisplay[FILTERLVL<4 8bs UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Warpspear
-ItemDisplay[FILTERLVL<4 8bs UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Warpspear
+ItemDisplay[FILTERLVL<4 8bs UNI !ID ETH]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###Warpspear%GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
 // ------------------------------------------------------------------------------------------------ Skull Collector
 ItemDisplay[FILTERLVL<4 8ws UNI !ID !ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %TAN%Skull Collector
 ItemDisplay[FILTERLVL<4 8ws UNI !ID ETH]: %NOTIFY(ITEM,LOW)%%MAPICON(5)% %GRAY%ETH %TAN%Skull Collector
