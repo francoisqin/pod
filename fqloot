@@ -143,7 +143,7 @@ ItemDisplay[ear]: %NOTIFY(ITEM,LOW)% %ORANGE%%NAME%
 // -------------------------------------------------------------------------------------------------------------
 ItemDisplay[std]: %NOTIFY(ITEM,HIGH)% %NAME%
 ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Corruption   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
-ItemDisplay[cx5]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Alteration   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
+ItemDisplay[cx9]: %NOTIFY(ITEM,HIGH)%%MAPICON(4,3)% %BORDER(155,8)%%BGCOLOR(155)%%GREEN%###   %PURPLE%Orb of Alteration   %GREEN%###%NL% %NOTIFYSOUND(2664,HIGH)%
 ItemDisplay[cx6]: %NOTIFY(ITEM,HIGH)% %PURPLE%%NAME%
 ItemDisplay[cx7]: %NOTIFY(ITEM,HIGH)% %PURPLE%**** KEY OF CHAOS ****
 // -------------------------------------------------------------------------------------------------------------
